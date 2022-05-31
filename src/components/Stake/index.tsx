@@ -33,6 +33,7 @@ interface PanelType {
 
 const Stake: FC = () => {
   const { userActiveStake, userClaimableRewards } = useGlobalContext();
+  console.log(userActiveStake);
   const { onRedelegate, onClaimRewards } = useStakeData();
   const { isLoading, isEmpty, isError } = {
     isEmpty: userActiveStake.data === '0',
@@ -102,8 +103,6 @@ const Stake: FC = () => {
           <div className={styles.message}>
             {isLoading
               ? 'Retrieving staking data...'
-              : isError
-              ? 'There was an error trying to retrieve staking data.'
               : `Currently you don't have any ${network.egldLabel} staked.`}
           </div>
 
