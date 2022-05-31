@@ -35,6 +35,7 @@
   },
   "scripts": {
     "start": "HTTPS=true react-scripts start",
+    "deploy": "BUILD_PATH='./dist' react-scripts build && rm -rf ./build && mv ./dist ./build/",
     "start-testnet": "npm run copy-testnet-config & npm run start",
     "start-devnet": "npm run copy-devnet-config & npm run start",
     "start-mainnet": "npm run copy-mainnet-config & npm run start",
