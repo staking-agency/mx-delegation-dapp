@@ -55,7 +55,7 @@ export const network: NetworkType = {
   gatewayAddress: 'https://gateway.elrond.com',
   explorerAddress: 'https://explorer.elrond.com',
   delegationContract:
-    'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqhllllsajxzat'
+    'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr8llllse9cj2t'
 };
 
 export const delegationContractData: Array<DelegationContractType> = [
