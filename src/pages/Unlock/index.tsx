@@ -71,7 +71,7 @@ const Unlock: FC = () => {
         </div>
 
         <strong className={styles.heading}>
-          Staking Agency Delegation Manager
+          Titan Stake Delegation Manager
         </strong>
 
         <div className={styles.description}>
