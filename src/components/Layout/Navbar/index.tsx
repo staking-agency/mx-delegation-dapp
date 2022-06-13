@@ -12,7 +12,7 @@ import { denominated } from 'helpers/denominate';
 
 import modifiable from 'helpers/modifiable';
 import styles from './styles.module.scss';
-import StakingAgencyLogoBig from '../../../assets/StakingAgencyLogoBig';
+import TitanStakeLogoBig from '../../../assets/TitanStakeLogoBig';
 
 interface ButtonsType {
   icon: ReactNode;
@@ -44,7 +44,7 @@ const Navbar: FC = () => {
     <nav className={`${styles.nav} delegation-nav`}>
       <Link to='/dashboard' className={styles.heading}>
         <span className={styles.logo}>
-          <StakingAgencyLogoBig />
+          <TitanStakeLogoBig />
         </span>
 
         <span className={styles.title}>Delegation Manager</span>

@@ -28,14 +28,14 @@ const Unlock: FC = () => {
     {
       title: 'Desktop',
       name: 'Elrond Web Wallet',
-      background: '#000000',
+      background: '#2647cf',
       icon: Logo,
       component: DappUI.WebWalletLoginButton
     },
     {
       title: 'Hardware',
       name: 'Ledger',
-      background: '#000000',
+      background: '#2647cf',
       icon: Ledger,
       component: DappUI.LedgerLoginButton
     },
