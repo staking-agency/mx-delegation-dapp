@@ -1,11 +1,18 @@
+.firstlogo {
+  display: block;
+  margin: 0rem auto;
+  padding-top: 4rem;
+  text-align: center;
+    img {
+      width: 400px;
+    }
+}
+
 .unlock {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  @media (min-width: 992px) {
-    height: 100vh;
-  }
 
   .wrapper {
     background: rgba(0, 6, 13, 0.2);
