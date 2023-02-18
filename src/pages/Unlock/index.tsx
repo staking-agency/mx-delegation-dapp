@@ -9,6 +9,7 @@ import Logo from 'assets/Logo';
 import Maiar from 'assets/Maiar';
 
 import { network } from 'config';
+import TitanStakeLogoBig from '../../assets/TitanStakeLogoBig';
 
 import styles from './styles.module.scss';
 
@@ -35,7 +36,7 @@ const Unlock: FC = () => {
     {
       title: 'Hardware',
       name: 'Ledger',
-      background: '#000000',
+      background: '#2647cf',
       icon: Ledger,
       component: DappUI.LedgerLoginButton
     },
@@ -64,41 +65,46 @@ const Unlock: FC = () => {
   useEffect(redirectConditionally, [address]);
 
   return (
-    <div className={styles.unlock}>
-      <div className={styles.wrapper}>
-        <div className={styles.logo}>
-          <Logo />
-        </div>
+    <div>
+      <div className={styles.firstlogo}>
+        <TitanStakeLogoBig />
+      </div>
+      <div className={styles.unlock}>
+        <div className={styles.wrapper}>
+          <div className={styles.logo}>
+            <Logo />
+          </div>
 
-        <strong className={styles.heading}>
-          Titan Stake Delegation Manager
-        </strong>
+          <strong className={styles.heading}>
+            Titan Stake Delegation Manager
+          </strong>
 
         <div className={styles.description}>
           {`Delegate MultiversX (${network.egldLabel}) and earn up to 25% APY!`}
         </div>
 
-        <div className={styles.connects}>
-          {connects.map((connect: ConnectionType) => (
-            <connect.component
-              key={connect.name}
-              callbackRoute='/dashboard'
-              logoutRoute='/unlock'
-            >
-              <span className={styles.connect}>
-                <span className={styles.title}>{connect.title}</span>
+          <div className={styles.connects}>
+            {connects.map((connect: ConnectionType) => (
+              <connect.component
+                key={connect.name}
+                callbackRoute='/dashboard'
+                logoutRoute='/unlock'
+              >
+                <span className={styles.connect}>
+                  <span className={styles.title}>{connect.title}</span>
 
-                <span
-                  className={styles.icon}
-                  style={{ background: connect.background }}
-                >
-                  <connect.icon />
+                  <span
+                    className={styles.icon}
+                    style={{ background: connect.background }}
+                  >
+                    <connect.icon />
+                  </span>
+
+                  <span className={styles.name}>{connect.name}</span>
                 </span>
-
-                <span className={styles.name}>{connect.name}</span>
-              </span>
-            </connect.component>
-          ))}
+              </connect.component>
+            ))}
+          </div>
         </div>
       </div>
     </div>

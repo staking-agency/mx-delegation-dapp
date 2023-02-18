@@ -152,7 +152,7 @@ const Stake: FC = () => {
                   <button
                     key={action.label}
                     type='button'
-                    style={{ background: iteratee ? panel.color : '#303234' }}
+                    style={{ background: iteratee ? panel.color : '#325477' }}
                     className={modifiable(
                       'action',
                       [panel.disabled && 'disabled'],

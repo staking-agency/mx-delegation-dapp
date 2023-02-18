@@ -317,7 +317,7 @@ const Cards: FC = () => {
     },
     {
       label: 'Computed APR',
-      colors: ['#FBC34C', '#D49712'],
+      colors: ['#dfa935', '#b17e0f'],
       icon: <FontAwesomeIcon icon={faLeaf} />,
       data: {
         value: getAnnualPercentage(),
@@ -329,7 +329,7 @@ const Cards: FC = () => {
       modal: <ChangeServiceFee />,
       icon: <FontAwesomeIcon icon={faReceipt} />,
       title: 'Change service fee',
-      colors: ['#F3BF89', '#B68350'],
+      colors: ['#dead7b', '#a26f3d'],
       data: {
         value: contractDetails.data
           ? contractDetails.data.serviceFee
