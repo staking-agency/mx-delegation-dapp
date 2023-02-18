@@ -27,7 +27,7 @@ const Unlock: FC = () => {
   const connects: Array<ConnectionType> = [
     {
       title: 'Desktop',
-      name: 'Elrond Web Wallet',
+      name: 'MultiversX Web Wallet',
       background: '#000000',
       icon: Logo,
       component: DappUI.WebWalletLoginButton
@@ -41,14 +41,14 @@ const Unlock: FC = () => {
     },
     {
       title: 'Mobile',
-      name: 'Maiar App',
+      name: 'xPortal Mobile Wallet',
       background: 'linear-gradient(225deg, #2C58DA 0%, #1A2ABA 100%)',
       icon: Maiar,
       component: DappUI.WalletConnectLoginButton
     },
     {
       title: 'Browser',
-      name: 'Maiar DeFi Wallet',
+      name: 'MultiversX DeFi Wallet',
       background: 'linear-gradient(225deg, #2C58DA 0%, #1A2ABA 100%)',
       icon: Extension,
       component: DappUI.ExtensionLoginButton
@@ -71,11 +71,11 @@ const Unlock: FC = () => {
         </div>
 
         <strong className={styles.heading}>
-          Staking Agency Delegation Manager
+          MultiversX Delegation Manager
         </strong>
 
         <div className={styles.description}>
-          {`Delegate Elrond (${network.egldLabel}) and earn up to 15% APY!`}
+          {`Delegate MultiversX (${network.egldLabel}) and earn up to 25% APY!`}
         </div>
 
         <div className={styles.connects}>
