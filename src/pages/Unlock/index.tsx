@@ -78,10 +78,9 @@ const Unlock: FC = () => {
           <strong className={styles.heading}>
             Titan Stake Delegation Manager
           </strong>
-
-        <div className={styles.description}>
-          {`Delegate MultiversX (${network.egldLabel}) and earn up to 25% APY!`}
-        </div>
+          <div
+            className={styles.description}
+          >{`Delegate MultiversX (${network.egldLabel}) and earn up to 8% APY!`}</div>
 
           <div className={styles.connects}>
             {connects.map((connect: ConnectionType) => (
