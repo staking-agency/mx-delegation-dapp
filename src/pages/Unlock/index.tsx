@@ -35,7 +35,7 @@ const Unlock: FC = () => {
     },
     {
       title: 'Hardware',
-      name: 'Ledger MultiversX',
+      name: 'Ledger',
       background: '#2647cf',
       icon: Ledger,
       component: DappUI.LedgerLoginButton
