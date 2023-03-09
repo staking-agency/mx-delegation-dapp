@@ -6,11 +6,11 @@ import { useNavigate } from 'react-router-dom';
 import Extension from 'assets/Extension';
 import Ledger from 'assets/Ledger';
 import Logo from 'assets/Logo';
-import Maiar from 'assets/Maiar';
 
 import { network } from 'config';
 
 import styles from './styles.module.scss';
+import xPortalLogo from '../../assets/xPortalLogo';
 
 interface ConnectionType {
   title: string;
@@ -34,7 +34,7 @@ const Unlock: FC = () => {
     },
     {
       title: 'Hardware',
-      name: 'Ledger',
+      name: 'MultiversX Ledger Connect',
       background: '#000000',
       icon: Ledger,
       component: DappUI.LedgerLoginButton
@@ -42,8 +42,8 @@ const Unlock: FC = () => {
     {
       title: 'Mobile',
       name: 'xPortal Mobile Wallet',
-      background: 'linear-gradient(225deg, #2C58DA 0%, #1A2ABA 100%)',
-      icon: Maiar,
+      background: '#000000',
+      icon: xPortalLogo,
       component: DappUI.WalletConnectLoginButton
     },
     {
