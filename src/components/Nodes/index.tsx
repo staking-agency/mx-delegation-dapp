@@ -155,19 +155,13 @@ const Nodes: FC = () => {
       func: new ContractFunction('getQueueSize')
     });
 
-    const queryContract = async (parameters: Query) => {
-      const decode = (item: string) => Buffer.from(item, 'base64');
-      const response = await provider.doPostGeneric(
-        'vm-values/query',
-        parameters.toHttpRequest(),
-        (payload) => payload
-      );
+    const payload = await Promise.all(
+      [query, queue].map((parameters) => provider.queryContract(parameters))
+    );
 
-      return response.data.returnData.map(decode);
-    };
-
-    const payload = await Promise.all([query, queue].map(queryContract));
-    const [position, size] = payload.map(([item]) => String(item));
+    const [position, size] = payload
+      .map((item) => item.outputUntyped())
+      .map(([item]) => String(item));
 
     return `${position}/${size}`;
   }, []);
@@ -248,7 +242,7 @@ const Nodes: FC = () => {
       }
     };
 
-    if (nodesNumber.data && nodesStates.data) {
+    if (nodesNumber.data && nodesNumber.data.length > 0 && nodesStates.data) {
       fetchData(nodesNumber.data, nodesStates.data);
     }
 

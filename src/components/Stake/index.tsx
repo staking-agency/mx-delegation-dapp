@@ -36,13 +36,9 @@ const Stake: FC = () => {
   console.log(userActiveStake);
   const { onRedelegate, onClaimRewards } = useStakeData();
   const { isLoading, isEmpty, isError } = {
-    isEmpty: userActiveStake.data === '0' && userClaimableRewards.data === '0',
-    isLoading:
-      userActiveStake.status === 'loading' ||
-      userClaimableRewards.status === 'loading',
-    isError:
-      userActiveStake.status === 'error' ||
-      userClaimableRewards.status === 'error'
+    isEmpty: userActiveStake.data === '0',
+    isLoading: userActiveStake.status === 'loading',
+    isError: userActiveStake.status === 'error'
   };
 
   const panels: Array<PanelType> = [
