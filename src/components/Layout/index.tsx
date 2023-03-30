@@ -5,7 +5,6 @@ import {
   AuthenticatedRoutesWrapper,
   useGetAccountInfo
 } from '@elrondnetwork/dapp-core';
-
 import { useLocation } from 'react-router-dom';
 import routes, { routeNames } from 'routes';
 import Navbar from './Navbar';
