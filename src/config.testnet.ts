@@ -42,23 +42,20 @@ export const stakingContract =
   'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqllls0lczs7';
 export const delegationManagerContract =
   'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqylllslmq6y6';
-export const walletConnectBridge = 'https://bridge.walletconnect.org';
-export const walletConnectDeepLink =
-  'https://maiar.page.link/?apn=com.elrond.maiar.wallet&isi=1519405832&ibi=com.elrond.maiar.wallet&link=https://maiar.com/';
 
 export const network: NetworkType = {
   id: 'testnet',
   name: 'Testnet',
   egldLabel: 'xEGLD',
-  walletAddress: 'https://testnet-wallet.elrond.com/dapp/init',
-  apiAddress: 'https://testnet-api.elrond.com',
-  gatewayAddress: 'https://testnet-gateway.elrond.com',
-  explorerAddress: 'http://testnet-explorer.elrond.com',
+  walletAddress: 'https://testnet-wallet.multiversx.com/dapp/init',
+  apiAddress: 'https://testnet-api.multiversx.com',
+  gatewayAddress: 'https://testnet-gateway.multiversx.com',
+  explorerAddress: 'http://testnet-explorer.multiversx.com',
   delegationContract:
     'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqx8llllsxavffq'
 };
 
-export const delegationContractData: Array<DelegationContractType> = [
+export const delegationContractData: DelegationContractType[] = [
   {
     name: 'createNewDelegationContract',
     gasLimit: 6000000,
