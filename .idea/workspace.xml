@@ -5,116 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a0c544-8be0-482e-852e-f41f7c7cba5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/delegation-dashboard.elrond.com.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MultiversX.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Wallet.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/xPortal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Action/Action.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Action/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/Cards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/components/ChangeDelegationCap/ChangeDelegationCap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/components/ChangeDelegationCap/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/components/ChangeServiceFee/ChangeServiceFee.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/components/ChangeServiceFee/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cards/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Heading/Heading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Heading/components/Identity/Identity.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Heading/components/Identity/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Heading/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/components/Navbar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/components/Navbar/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nodes/Nodes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nodes/components/Add/Add.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nodes/components/Add/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nodes/components/Dropzone/Dropzone.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nodes/components/Dropzone/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nodes/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stake/Stake.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stake/components/Delegate/Delegate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stake/components/Delegate/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stake/components/Undelegate/Undelegate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stake/components/Undelegate/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Stake/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Toggles/Toggles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Toggles/components/Switch/Switch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Toggles/components/Switch/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Toggles/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Withdrawals/Withdrawals.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Withdrawals/components/Withdrawal/Withdrawal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Withdrawals/components/Withdrawal/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Withdrawals/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Admin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Admin/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound/PageNotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Unlock/Unlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Unlock/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Unlock/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Extension.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Extension.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Ledger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Ledger.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Action/context/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Action/context/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Action/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Action/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/components/ChangeServiceFee/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/components/ChangeServiceFee/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/helpers/calculateAnnualPercentage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/helpers/calculateAnnualPercentage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading/components/Identity/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading/components/Identity/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nodes/components/Dropzone/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nodes/components/Dropzone/helpers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nodes/components/Dropzone/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nodes/components/Dropzone/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nodes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nodes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nodes/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nodes/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stake/components/Delegate/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stake/components/Delegate/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stake/components/Undelegate/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stake/components/Undelegate/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stake/helpers/delegationValidators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stake/helpers/delegationValidators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stake/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stake/hooks/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stake/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stake/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stake/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stake/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Toggles/components/Switch/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Toggles/components/Switch/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Withdrawals/components/Withdrawal/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Withdrawals/components/Withdrawal/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.devnet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.devnet.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.mainnet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.mainnet.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.testnet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.testnet.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/state.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/state.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/getPercentage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/getPercentage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/useTransaction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/useTransaction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useGlobalData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useGlobalData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Unlock/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Unlock/Unlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Unlock/Unlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Unlock/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Unlock/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,27 +25,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="29wXPXerEu5x9PSV5mRoHOwyETI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/var/www/stakingAgency/delegation-dashboard.elrond.com&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/var/www/stakingAgency/delegation-dashboard.elrond.com/node_modules/prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/var/www/stakingAgency/delegation-dashboard.elrond.com/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "stakingAgency",
+    "last_opened_file_path": "/var/www/stakingAgency/delegation-dashboard.elrond.com",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/var/www/stakingAgency/delegation-dashboard.elrond.com/node_modules/prettier",
+    "ts.external.directory.path": "/var/www/stakingAgency/delegation-dashboard.elrond.com/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />

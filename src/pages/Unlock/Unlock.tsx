@@ -106,11 +106,22 @@ export const Unlock = () => {
         </div>
 
         <strong className={styles.heading}>
-          MultiversX Delegation Dashboard
+          Staking Agency Delegation Dashboard
         </strong>
 
         <div className={styles.description}>
-          {`Delegate MultiversX (${network.egldLabel}) and earn up to 25% APY!`}
+          {`Delegate MultiversX (${network.egldLabel}) and earn up to 7% APY!`}
+        </div>
+
+        <div className={styles.description}>
+          <>
+            {'Please also check our liquid staking option - '}{' '}
+            {/* eslint-disable-next-line react/jsx-no-target-blank */}
+            <a href='https://liquid.staking.agency' target='_blank'>
+              {' '}
+              SALSA
+            </a>
+          </>
         </div>
 
         <div className={styles.connects}>
